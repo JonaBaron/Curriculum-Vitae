@@ -43,4 +43,4 @@ This CV repository is regularly updated to reflect my latest professional experi
 This CV is available for viewing and inspiration, but please note that all personal information and content are proprietary. Please do not reuse without permission.
 
 ---
-Last Updated: January 2024
+Last Updated: January 2025
