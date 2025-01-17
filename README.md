@@ -1,7 +1,7 @@
 # Jonathan Mehmannavaz - Curriculum Vitae
 
 ## Overview
-This repository contains my professional CV, showcasing my experience as a Computer Engineering student at Concordia University with a strong foundation in software development, hardware systems, and practical engineering experience.
+This repository contains my professional CV, showcasing my experience as a Computer Engineering student at Concordia University with a strong foundation in software development, hardware systems, deep learning, and practical engineering experience.
 
 ## 🎓 Education
 - Bachelor of Engineering - Computer Engineering Co-op (2022-2026 Expected) - Concordia University
