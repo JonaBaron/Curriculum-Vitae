@@ -24,7 +24,7 @@ This repository contains my professional CV, showcasing my experience as a Compu
 
 ## 📄 CV Formats
 - LaTeX source code (main.tex)
-- PDF version (Mehmannavaz_Jonathan_CV.pdf)
+- PDF version (CV_January_2025.pdf)
 
 ## 🔄 How to Build
 To generate the PDF from the LaTeX source:
