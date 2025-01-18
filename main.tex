@@ -1,0 +1,304 @@
+%----------------------------------------------------------------------------------------------------------------
+%.     Ceci est le préambule, il n'y a rien à changer dans cette partie du document.
+%----------------------------------------------------------------------------------------------------------------
+
+%On définit le type de document, de papier et la grosseur des caractères.
+\documentclass[letterpaper,11pt]{article}
+
+%Trois lignes liées à l'ordinateur avec lequel on produit le document.
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[top=2cm,bottom=2cm,left=2.5cm,right=2.5cm,includehead=true,headheight=1cm]{geometry}%Pour ajustement des marges.
+\usepackage{amsbsy}%Accès à des symboles mathématiques
+\usepackage{amsfonts}%Accès à des symboles mathématiques
+\usepackage[leqno]{amsmath}%Pour que les équations soient numérotées à gauche.
+\usepackage{amssymb}%Accès à des symboles mathématiques
+\usepackage{bm}%Pour mettre en gras n'importe quel symbole.
+\usepackage{ctable}%Pour obtenir des lignes d'épaisseur variable dans les tableaux.
+\usepackage{enumerate}%Pour les listes d'énumération.
+\usepackage{fancyhdr}%Permet de modifier les entêtes.
+\usepackage[bottom]{footmisc}%Pour avoir les notes vraiment en bas de la page.
+\usepackage{framed}%Pour pouvoir mettre une boite autour d'un élément.
+\usepackage{graphicx}%Pour insérer facilement une figure.
+\usepackage{multicol}%Pour créer un document à plusieurs colonnes.
+\usepackage{parskip}%Pour pouvoir modifier l'espace entre les paragraphes.
+\usepackage{setspace}%Pour pouvoir modifier l'espace entre les lignes.
+\usepackage{siunitx}%Pour les nombres et les unités.
+\usepackage{tabularx}%Utile avec les tableaux
+\usepackage{upgreek}%Pour accéder aux lettres grecques en romain.
+\usepackage{xcolor}%Pour accéder à toutes les couleurs dans le document.
+\usepackage[b]{esvect}%Permet de créer des vecteurs.
+%Pour créer des colonnes de tableau avec package « tabularx »
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+%Pour que les tableaux s'appellent des tableaux.
+
+
+\sisetup{locale = FR,separate-uncertainty=true,list-units=repeat,multi-part-units=brackets,per-mode=symbol}%Pour que les nombres soient écrits avec une virgule.
+
+%Les quatre lignes qui suivent définissent l'espace entre les paragraphes, l'indentation, l'espace entre les lignes et la distance entre une boite et ce qu'elle contient.
+\parskip=10pt 
+\parindent=0pt
+\onehalfspacing
+\fboxsep=9pt
+
+%Pour créer des vecteurs avec une lettre normale ou une lettre grecque
+\newcommand{\vecteur}[1]{
+\vv{\mathbf{#1}}
+}
+\newcommand{\vecteurg}[1]{
+\vv{\boldsymbol{#1}}
+}
+
+%Les lignes qui suivent servent à changer le symbole de la numérotation des sections et des sous sections. Demandez-moi de l'aide si vous en avez besoin...
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+%Voici les options qui sont possibles :
+%\arabic (1, 2, 3, ...)
+%\alph (a, b, c, ...)
+%\Alph (A, B, C, ...)
+%\roman (i, ii, iii, ...)
+%\Roman (I, II, III, ...)
+%\fnsymbol (?, †, ‡, §, ¶, ...)
+%-----------------------------------------------------------------------------------------------------------
+%          Ici on insère les informations pour la page titre.
+%-----------------------------------------------------------------------------------------------------------
+\begin{document}
+\begin{center}
+% Intro
+{\LARGE\textbf{Jonathan Mehmannavaz}}
+\\
+\\
+LinkedIn: https://www.linkedin.com/in/jonathan-mehmannavaz/
+\\
+GitHub: https://github.com/JonaBaron
+\\
+Personal website: JonaBaron.github.io
+\end{center}
+%-----------------------------------------------------------------------------------------------------------
+% SUMMARY section
+%-----------------------------------------------------------------------------------------------------------
+\textbf{SUMMARY OF SKILLS AND QUALIFICATIONS}
+\\
+\rule{\textwidth}{0.4pt}
+% Operating system
+{\small\textbf{Operating System}} \textbar{} Windows, Mac OS , Linux
+
+%Software
+{\small\textbf{Software}} \textbar{} Microsoft 365, Teams, Adobe Suite, Visual Paradigm, Zoom, AutoCAD, SolidWorks, Altium Designer, GitHub, Apache web server, LaTeX, ModelSim 
+
+% Programing
+{\small\textbf{Programming}} \textbar{} C/C++, Java, Python, JavaScript, HTML, CSS, PL-SQL, Node.js, Bash, Assembler, VHDL, PostgreSQL, TensorFlow, Keras, Scikit-learn, Agile (Scrum)
+
+% Hardware
+{\small\textbf{Hardware}} \textbar{} Arduino, Allan-Bradley PLC, ARM processor, FPGA board, Oracle VM Virtual Box
+
+% Languages
+{\small\textbf{Languages}} \textbar{} French (written and spoken) and English
+(written and spoken)
+
+% Certification
+{\small\textbf{Licenses \& Certification}} \textbar{} Valid driving permit in
+Quebec and International, Tensorflow for Deep Learning certification
+
+%-----------------------------------------------------------------------------------------------------------
+% EDUCATION section
+%-----------------------------------------------------------------------------------------------------------
+\textbf{EDUCATION}
+\\
+\rule{\textwidth}{0.4pt}
+%Concordia
+\textbf{Bachelor of Engineering - Computer Engineering Co-op \hfill 2022 --2026 (Expected)}
+\\Concordia University, Montréal (Québec)
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+  Member of the Institute for Co-operative Education
+\item
+  Relevant courses: Object-oriented programming with Digital system
+  design.
+\end{itemize}
+
+% ETS
+\textbf{Technological Academic Path in Engineering \hfill 2021 -- 2022}
+\\École de technologie supérieure -- ETS, Montréal (Québec)
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+  Relevant courses: Computer and Technical drawing for engineers with
+  Programmable Logic Controllers (PLCs) and Sequential Logic.
+\end{itemize}
+
+% Cégep
+\textbf{Diploma of College Studies in Pure Sciences \hfill 2019 -2021}
+\\
+Cégep régional de Lanaudière à L'Assomption, L'Assomption (Québec)
+
+% Collège
+\textbf{Secondary School Diploma (International Baccalaureate (IB)
+Program) \hfill 2014 - 2019}
+\\
+Collège de l'Assomption, L'Assomption (Québec)
+
+%-----------------------------------------------------------------------------------------------------------
+% WORK section
+%-----------------------------------------------------------------------------------------------------------
+
+\newpage
+\textbf{WORK EXPERIENCE}\par
+\vspace{-20pt}
+\rule{\textwidth}{0.4pt}
+\textbf{COOP Supervisor internship \hfill September 2023 --December 2023}
+\par
+\vspace{-15pt}
+% Pratt
+Pratt \& Whitney Canada, St-Hubert (Québec)
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+  Managed employees in a unionized environment by working closely with
+  the supervisor (ensure smooth day-to-day operations, assign tasks, act
+  as a resource person for the department).
+\item
+  Acted as a leader to execute the change management project that touched the department while reducing non-quality. 
+\item
+Leaded strategic initiatives to enhance productivity through KPI monitoring and implementation of RF scanning systems, resulting in continuous departmental improvements.
+\end{itemize}
+
+Core Competencies: Communication and presentation skill, autonomy,
+leadership, sense of priorities, initiative and diplomacy
+\vspace{-5pt}
+% Réno-Dépôt
+
+\textbf{Seasonal Sales Advisor \hfill May 2022 - August 2022}
+\par
+\vspace{-15pt}
+Réno-Dépôt, Charlemagne (Quebec)
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item 
+Consistently exceeded sales targets while maintaining high customer satisfaction through efficient problem-solving, effective inventory management, and strong organizational skills.
+\end{itemize}
+
+Core Competencies: Oral Communication, Teamwork
+\vspace{-5pt}
+% Staples
+\textbf{Computer Associate} \hfill \textbf{June 2021 - August 2021} 
+\par
+\vspace{-15pt}
+Bureau en Gros(Staples), Joliette (Québec)
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+Used technical expertise to drive top computer sales in Montreal through comprehensive customer support, including setup, phone assistance and initial contact to purchase completion.
+\item
+Demonstrated leadership capabilities by successfully managing team operations and sales targets during management absence while maintaining high service standards.
+\end{itemize}
+Core Competencies: Oral Communication, Adaptability, Teamwork, Attention
+to Detail
+\vspace{-5pt}
+
+%-----------------------------------------------------------------------------------------------------------
+% Project section
+%-----------------------------------------------------------------------------------------------------------
+\textbf{Projects}\par
+\vspace{-20pt}
+\rule{\textwidth}{0.4pt}
+
+% AI
+\textbf{TensorFlow for Deep Learning Bootcamp Projects \hfill December - January 2025}
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+Participated in a Udemy course to build multiple models using TensorFlow, Keras and Scikit-learn on Python using Google Colab platform.
+\item
+Built neural network for regression, classification, computer vision, natural language processing and time series projections.
+\end{itemize}
+Core Competencies: Self-taught, Data Science, Problem-solving Mindset, ML/AI Developments
+
+% Hovercraft
+\textbf{Introductory Engineering Team Design Project \hfill September - December 2024}
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+Leaded a autonomous hovercraft development with 5-person team, utilizing Arduino, Blender, SolidWorks Fluid Simulation, Matlab and embedded programming.
+\item
+Managed full project lifecycle from design to competition and achieving successful autonomous navigation demonstration.
+\end{itemize}
+Core Competencies: Autonomous Systems Design, Embedded Code Design, Team Leadership, Project Management, Technical Documentation
+Competencies
+
+% Web app
+\textbf{Software Process and Practices Project \hfill September - December 2024}
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+Leaded development of a comprehensive peer assessment platform with 7-person team, utilizing Node.js,
+Express.js, and PostgreSQL for backend architecture and EJS with Bootstrap for frontend design.
+\item
+Managed agile development process through 4 sprints, coordinating cross-functional team tasks
+and delivering incremental improvements based on stakeholder feedback.
+\end{itemize}
+Core Competencies: Full-Stack Development, Agile Project Management, Web App Design
+
+%-----------------------------------------------------------------------------------------------------------
+% VOLUNTEER section
+%-----------------------------------------------------------------------------------------------------------
+\textbf{VOLUNTEER WORK AND EXTRA-CURRICULAR ACTIVITIES}\par
+\vspace{-20pt}
+\rule{\textwidth}{0.4pt}
+\textbf{International Solidarity Trip to Guatemala} \hfill \textbf{April 2019}
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+  Participated in community work and activities such as building
+  concrete floors, working with underprivileged youth, and setting up
+  games for Guatemalan seniors.
+\end{itemize}
+
+\textbf{Youth Committee for Amnesty International \hfill 2016-2017-2018}
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+  Participated in Amnesty International events and info booths at
+  Collège de l'Assomption, supporting fundraising, awareness, and
+  advocacy for human rights.
+\end{itemize}
+
+\textbf{Knights of Columbus \hfill 2015-2016}
+
+\begin{itemize}
+\setlength{\itemsep}{-3pt}
+\item
+  Contributed to community events by volunteering at the Knights of Columbus in St-Sulpice.
+\end{itemize}
+
+%-----------------------------------------------------------------------------------------------------------
+% INTERESTS section
+%-----------------------------------------------------------------------------------------------------------
+
+\textbf{INTERESTS}\par
+\vspace{-20pt}
+\rule{\textwidth}{0.4pt}
+\textbf{Football Team "Les Sphinx" \hfill 2017, 2018, 2019}
+
+\begin{itemize}
+\item
+  Regional RSEQ gold and silver medal winner.
+\end{itemize}
+
+\textbf{Basketball Team "Les Sphinx" \hfill 2015-2016}
+
+\end{document}
