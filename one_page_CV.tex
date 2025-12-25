@@ -1,0 +1,155 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Jonathan Mehmannavaz
+% Optimized for ATS and technical roles
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+% Page setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Jonathan Mehmannavaz} \\ \vspace{2pt}
+    \small +1 (514) 926-7814 $|$ 
+    \href{mailto:mehmannavazjonathan@gmail.com}{mehmannavazjonathan@gmail.com} $|$
+    \href{https://linkedin.com/in/jonathan-mehmannavaz/}{LinkedIn} $|$
+    \href{https://github.com/JonaBaron}{GitHub} $|$
+    \href{https://JonaBaron.github.io}{Portfolio}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Concordia University}{Montreal, QC}
+      {Bachelor of Engineering in Computer Engineering (Co-op)}{Sep 2022 -- Apr 2026}
+      \resumeItemListStart
+        \resumeItem{Member of the Institute for Co-operative Education}
+        \resumeItem{Relevant Coursework: Object-Oriented Programming, Digital System Design, Embedded Systems}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Python, Java, JavaScript, SQL (PostgreSQL), HTML/CSS, Swift, Bash, VHDL, Assembly} \\
+     \textbf{Frameworks/Libraries}{: TensorFlow, Keras, Scikit-learn, Node.js, Express.js, SwiftUI, Bootstrap, React} \\
+     \textbf{Tools/Platforms}{: Git, Docker, Google Cloud, Power BI, LaTeX, MATLAB, Arduino, FPGA, ARM, PLC, Altium Designer} \\
+     \textbf{Certifications}{: TensorFlow for Deep Learning, Power BI, iOS Development (Udemy)}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Co-op Supervisor}{Sep 2023 -- Dec 2023}
+      {Pratt \& Whitney Canada}{St-Hubert, QC}
+      \resumeItemListStart
+        \resumeItem{Led change management initiatives across manufacturing department, reducing non-quality defects by implementing systematic process improvements and employee training programs}
+        \resumeItem{Deployed RF scanning system and KPI monitoring dashboard, increasing operational efficiency by 15\% through real-time tracking and data-driven decision making}
+        \resumeItem{Managed team of 12 unionized employees in fast-paced aerospace manufacturing environment, coordinating daily operations, task assignments, and cross-functional collaboration}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+  
+    \resumeProjectHeading
+      {\textbf{Peer Assessment Platform} $|$ \emph{Node.js, Express.js, PostgreSQL, Bootstrap, Agile}}{Sep 2024 -- Dec 2024}
+      \resumeItemListStart
+        \resumeItem{Architected and deployed full-stack web application enabling peer evaluations for 100+ students, implementing secure authentication, role-based access control, and real-time analytics dashboard}
+        \resumeItem{Led 7-person development team through 4 Agile sprints, managing backlog prioritization, sprint planning, and continuous integration/deployment using Git workflows}
+        \resumeItem{Designed scalable PostgreSQL database schema with normalized tables, optimized queries reducing page load times by 40\%}
+      \resumeItemListEnd
+      
+    \resumeProjectHeading
+      {\textbf{Autonomous Hovercraft System} $|$ \emph{Arduino, C++, MATLAB, SolidWorks, Embedded Systems}}{Sep 2024 -- Dec 2024}
+      \resumeItemListStart
+        \resumeItem{Engineered autonomous navigation system using ultrasonic sensors, PID control algorithms, and real-time obstacle avoidance, achieving 90\% success rate in competition trials}
+        \resumeItem{Performed CFD analysis in SolidWorks to optimize lift fan design, increasing thrust efficiency by 25\% while reducing power consumption}
+        \resumeItem{Developed embedded C++ firmware with interrupt-driven sensor fusion and motor control, processing 50+ sensor readings per second}
+      \resumeItemListEnd
+      
+    \resumeProjectHeading
+      {\textbf{Deep Learning Projects} $|$ \emph{TensorFlow, Keras, Scikit-learn, Python, Google Colab}}{Dec 2024 -- Jan 2025}
+      \resumeItemListStart
+        \resumeItem{Built and trained 5+ neural network architectures for regression, classification, and time series forecasting, achieving 92\% accuracy on computer vision tasks using CNN models}
+        \resumeItem{Implemented NLP sentiment analysis model using RNN/LSTM networks, processing 10,000+ text samples with 88\% accuracy}
+        \resumeItem{Applied transfer learning with pre-trained models (ResNet, BERT) to accelerate training and improve model performance}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+%-----------ADDITIONAL EXPERIENCE-----------
+\section{Leadership \& Activities}
+  \resumeSubHeadingListStart
+    \resumeItem{\textbf{Regional RSEQ Champion} -- Football Team "Les Sphinx" (2017-2019): Gold and silver medal winner}
+    \resumeItem{\textbf{International Solidarity Trip} -- Guatemala (2019): Built infrastructure and organized activities for underserved communities}
+  \resumeSubHeadingListEnd
+
+\end{document}
