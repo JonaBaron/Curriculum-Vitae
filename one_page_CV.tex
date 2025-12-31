@@ -84,10 +84,9 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Concordia University}{Montreal, QC}
-      {Bachelor of Engineering in Computer Engineering (Co-op)}{Sep 2022 -- Apr 2026}
+      {Bachelor of Engineering in Computer Engineering}{Sep 2022 -- Apr 2026}
       \resumeItemListStart
-        \resumeItem{Member of the Institute for Co-operative Education}
-        \resumeItem{Relevant Coursework: Object-Oriented Programming, Digital System Design, Embedded Systems}
+        \resumeItem{Relevant Coursework: Data Structures, Digital System Design, Embedded Systems, Distributed Systems, Computer Graphics}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -95,11 +94,12 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: C/C++, Python, Java, JavaScript, SQL (PostgreSQL), HTML/CSS, Swift, Bash, VHDL, Assembly} \\
-     \textbf{Frameworks/Libraries}{: TensorFlow, Keras, Scikit-learn, Node.js, Express.js, SwiftUI, Bootstrap, React} \\
-     \textbf{Tools/Platforms}{: Git, Docker, Google Cloud, Power BI, LaTeX, MATLAB, Arduino, FPGA, ARM, PLC, Altium Designer} \\
-     \textbf{Certifications}{: TensorFlow for Deep Learning, Power BI, iOS Development (Udemy)}
-    }}
+     \textbf{Languages}{: Python, C/C++, Java, JavaScript, SQL, VHDL, Bash, Assembly} \\
+     \textbf{Frameworks}{: Flask, React, Node.js, Express.js, gRPC, Protocol Buffers, TensorFlow, Keras} \\
+     \textbf{Cloud/DevOps}{: Docker, Azure, Google Cloud, MongoDB, PostgreSQL, Redis, RabbitMQ, GitHub Actions} \\
+     \textbf{Embedded/Hardware}{: Arduino, FPGA, ARM Cortex-M, PLC, MATLAB, SolidWorks, Altium Designer, Git, Linux}
+     \textbf{Languages}{: French (Native), English (Fluent)}
+     }}
  \end{itemize}
 
 %-----------EXPERIENCE-----------
@@ -109,47 +109,52 @@
       {Co-op Supervisor}{Sep 2023 -- Dec 2023}
       {Pratt \& Whitney Canada}{St-Hubert, QC}
       \resumeItemListStart
-        \resumeItem{Led change management initiatives across manufacturing department, reducing non-quality defects by implementing systematic process improvements and employee training programs}
-        \resumeItem{Deployed RF scanning system and KPI monitoring dashboard, increasing operational efficiency by 15\% through real-time tracking and data-driven decision making}
-        \resumeItem{Managed team of 12 unionized employees in fast-paced aerospace manufacturing environment, coordinating daily operations, task assignments, and cross-functional collaboration}
+        \resumeItem{Initiated RF scanning and KPI tracking system to address inventory visibility gaps; defined requirements and coordinated stakeholder alignment for implementation}
+        \resumeItem{Led tremendous change management initiatives across manufacturing, reducing non-quality defects through systematic process improvements and employee training programs with perceiving positive feedback from management}
+        \resumeItem{Supervised team of 12 unionized employees in aerospace manufacturing, coordinating daily operations, task assignments, and production scheduling}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
   \resumeSubHeadingListStart
-  
-    \resumeProjectHeading
-      {\textbf{Peer Assessment Platform} $|$ \emph{Node.js, Express.js, PostgreSQL, Bootstrap, Agile}}{Sep 2024 -- Dec 2024}
-      \resumeItemListStart
-        \resumeItem{Architected and deployed full-stack web application enabling peer evaluations for 100+ students, implementing secure authentication, role-based access control, and real-time analytics dashboard}
-        \resumeItem{Led 7-person development team through 4 Agile sprints, managing backlog prioritization, sprint planning, and continuous integration/deployment using Git workflows}
-        \resumeItem{Designed scalable PostgreSQL database schema with normalized tables, optimized queries reducing page load times by 40\%}
-      \resumeItemListEnd
-      
-    \resumeProjectHeading
-      {\textbf{Autonomous Hovercraft System} $|$ \emph{Arduino, C++, MATLAB, SolidWorks, Embedded Systems}}{Sep 2024 -- Dec 2024}
-      \resumeItemListStart
-        \resumeItem{Engineered autonomous navigation system using ultrasonic sensors, PID control algorithms, and real-time obstacle avoidance, achieving 90\% success rate in competition trials}
-        \resumeItem{Performed CFD analysis in SolidWorks to optimize lift fan design, increasing thrust efficiency by 25\% while reducing power consumption}
-        \resumeItem{Developed embedded C++ firmware with interrupt-driven sensor fusion and motor control, processing 50+ sensor readings per second}
-      \resumeItemListEnd
-      
-    \resumeProjectHeading
-      {\textbf{Deep Learning Projects} $|$ \emph{TensorFlow, Keras, Scikit-learn, Python, Google Colab}}{Dec 2024 -- Jan 2025}
-      \resumeItemListStart
-        \resumeItem{Built and trained 5+ neural network architectures for regression, classification, and time series forecasting, achieving 92\% accuracy on computer vision tasks using CNN models}
-        \resumeItem{Implemented NLP sentiment analysis model using RNN/LSTM networks, processing 10,000+ text samples with 88\% accuracy}
-        \resumeItem{Applied transfer learning with pre-trained models (ResNet, BERT) to accelerate training and improve model performance}
-      \resumeItemListEnd
-      
+
+\resumeProjectHeading
+  {\textbf{Event-Driven E-Commerce Microservices} $|$ \emph{Python, Flask, MongoDB, RabbitMQ, Docker, Azure}}{Fall 2024}
+  \resumeItemListStart
+    \resumeItem{Architected event-driven platform with 5 containerized services, achieving eventual consistency across 2 MongoDB databases via RabbitMQ pub/sub messaging with topic-based routing}
+    \resumeItem{Implemented Strangler Pattern for zero-downtime migration with configurable traffic routing (0--100\% split), enabling gradual V1-to-V2 transition while maintaining backward compatibility}
+    \resumeItem{Automated CI/CD pipeline with GitHub Actions deploying to Azure Container Apps with CloudAMQP integration}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Distributed Query Microservice} $|$ \emph{Python, gRPC, Protocol Buffers, Redis, Google Cloud Run, Docker}}{Fall 2025}
+  \resumeItemListStart
+    \resumeItem{Developed gRPC microservice with Protocol Buffers (6 message types) querying Nobel Prize data, deployed to Google Cloud Run with Redis/RediSearch indexing for sub-second query latency}
+    \resumeItem{Benchmarked 300+ queries with statistical analysis, validating production-ready performance for cloud-deployed architecture}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Distributed Real-Time Auction System} $|$ \emph{Java, UDP/TCP Sockets, Multithreading, Concurrency}}{Fall 2024}
+  \resumeItemListStart
+    \resumeItem{Developed dual-protocol server handling concurrent auctions with UDP (registration, bidding) and TCP (payment, notifications) using 20-thread ExecutorService pool for scalable client connections}
+    \resumeItem{Implemented thread-safe bidding with Semaphore locks and ConcurrentHashMap, managing concurrent bid updates, auction state, and real-time broadcast notifications to subscribers}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Autonomous Hovercraft System} $|$ \emph{C++, Arduino, MATLAB, SolidWorks, PID Control}}{Fall 2024}
+  \resumeItemListStart
+    \resumeItem{Developed autonomous navigation with ultrasonic sensing and PID control, achieving 90\% success rate in competition trials through reactive obstacle-avoidance algorithms}
+    \resumeItem{Implemented interrupt-driven embedded firmware for sensor fusion and motor control, processing 50+ readings/sec with real-time guarantees; CFD-optimized fan geometry increased thrust efficiency by 25\%}
+  \resumeItemListEnd
+
   \resumeSubHeadingListEnd
 
 %-----------ADDITIONAL EXPERIENCE-----------
 \section{Leadership \& Activities}
   \resumeSubHeadingListStart
-    \resumeItem{\textbf{Regional RSEQ Champion} -- Football Team "Les Sphinx" (2017-2019): Gold and silver medal winner}
-    \resumeItem{\textbf{International Solidarity Trip} -- Guatemala (2019): Built infrastructure and organized activities for underserved communities}
+    \resumeItem{\textbf{Regional RSEQ Champion} -- Football Team (2017-2019): Gold and silver medal winner}
+    \resumeItem{\textbf{International Solidarity Trip} -- Guatemala (2019): Built infrastructure for underserved communities}
   \resumeSubHeadingListEnd
 
 \end{document}
