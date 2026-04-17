@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  6 MAR 2026 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -107,6 +107,7 @@ File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
 Package hyperref Info: Hyper index ON on input line 4165.
@@ -133,7 +134,7 @@ Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
 Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring ON on input line 6060.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
@@ -259,7 +260,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
-Package hyperref Info: Link coloring OFF on input line 69.
+Package hyperref Info: Link coloring ON on input line 69.
  (./one_page_CV.out) (./one_page_CV.out)
 \@outlinefile=\write3
 \openout3 = `one_page_CV.out'.
@@ -306,15 +307,15 @@ Package rerunfilecheck Info: File `one_page_CV.out' has not changed.
 (rerunfilecheck)             Checksum: F22C581229D42EDA537F449223672A8C;557.
  ) 
 Here is how much of TeX's memory you used:
- 10752 strings out of 473190
- 171074 string characters out of 5715801
- 613582 words of memory out of 5000000
- 33901 multiletter control sequences out of 15000+600000
+ 10755 strings out of 473190
+ 171129 string characters out of 5715801
+ 614663 words of memory out of 5000000
+ 33904 multiletter control sequences out of 15000+600000
  563793 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,342b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,336b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on one_page_CV.pdf (1 page, 105704 bytes).
+Output written on one_page_CV.pdf (1 page, 107809 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream

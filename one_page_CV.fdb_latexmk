@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1772833012.06527 "/Users/jonathanmehmannavaz/Code/Personal Project/Curriculum-Vitae/one_page_CV.tex" "one_page_CV.pdf" "one_page_CV" 1772833012.4244 0
-  "/Users/jonathanmehmannavaz/Code/Personal Project/Curriculum-Vitae/one_page_CV.tex" 1772833011.87072 7160 79e681ad7836956a6a18705232b21a7d ""
+["pdflatex"] 1776457484.86534 "/Users/jonathanmehmannavaz/Code/Personal Project/Curriculum-Vitae/one_page_CV.tex" "one_page_CV.pdf" "one_page_CV" 1776457485.24979 0
+  "/Users/jonathanmehmannavaz/Code/Personal Project/Curriculum-Vitae/one_page_CV.tex" 1776457478.64004 7300 d4ab4b979eae5c539278df95f57cd496 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -52,6 +52,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1739048179 31715 19e60610b63819fe670dfa1cd84a4e94 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def" 1713382759 19440 9da9dcbb27470349a580fca7372d454b ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty" 1730496337 7245 57f7defed4fb41562dc4b6ca13958ca9 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty" 1717359999 2671 70891d50dac933918b827d326687c6e8 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1667332637 2885 9c645d672ae17285bba324998918efd8 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty" 1580250785 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
@@ -75,9 +76,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1771816652 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "one_page_CV.aux" 1772833012.39716 832 f1c64be387976807771a9ce319c9a58f "pdflatex"
-  "one_page_CV.out" 1772833012.39756 557 f22c581229d42eda537f449223672a8c "pdflatex"
-  "one_page_CV.tex" 1772833011.87072 7160 79e681ad7836956a6a18705232b21a7d ""
+  "one_page_CV.aux" 1776457485.22317 832 f1c64be387976807771a9ce319c9a58f "pdflatex"
+  "one_page_CV.out" 1776457485.22358 557 f22c581229d42eda537f449223672a8c "pdflatex"
+  "one_page_CV.tex" 1776457478.64004 7300 d4ab4b979eae5c539278df95f57cd496 ""
   (generated)
   "one_page_CV.aux"
   "one_page_CV.log"

@@ -9,7 +9,7 @@
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -71,7 +71,7 @@
 %----------HEADING----------
 \begin{center}
     \textbf{\Huge Jonathan Mehmannavaz} \\ \vspace{2pt}
-    \small +1 (514) 926-7814 $|$ 
+    \small +1 (514) 926-7814 $|$
     \href{mailto:mehmannavazjonathan@gmail.com}{mehmannavazjonathan@gmail.com} $|$
     \href{https://linkedin.com/in/jonathan-mehmannavaz/}{LinkedIn} $|$
     \href{https://github.com/JonaBaron}{GitHub} $|$
@@ -105,11 +105,19 @@
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
+      {Capstone Project Engineer \& Project Manager}{Sep 2025 -- Apr 2026}
+      {Fuse Energy $|$ Concordia University (ELEC/COEN 490)}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Led 6-person cross-disciplinary team as project manager, coordinating firmware, hardware, and software workstreams to deliver a modular industrial digital control system}
+        \resumeItem{Developed real-time embedded firmware on STM32 MCU with Modbus TCP/IP, ADC/DAC drivers, and safety-critical control logic under an RTOS}
+        \resumeItem{Built full-stack supervisory application (FastAPI backend, React frontend) with real-time monitoring dashboard, automated sequencing, and safety interlock management}
+      \resumeItemListEnd
+    \resumeSubheading
       {Co-op Supervisor}{Sep 2023 -- Dec 2023}
       {Pratt \& Whitney Canada}{St-Hubert, QC}
       \resumeItemListStart
         \resumeItem{Initiated RF scanning and KPI tracking system to address inventory visibility gaps; defined requirements and coordinated stakeholder alignment for implementation}
-        \resumeItem{Led tremendous change management initiatives across manufacturing, reducing non-quality defects through systematic process improvements and employee training programs with perceiving positive feedback from management}
+        \resumeItem{Led change management initiatives across manufacturing, reducing non-quality defects through process improvements and employee training programs}
         \resumeItem{Supervised team of 12 unionized employees in aerospace manufacturing, coordinating daily operations, task assignments, and production scheduling}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
@@ -138,13 +146,6 @@
   \resumeItemListStart
     \resumeItem{Developed dual-protocol server handling concurrent auctions with UDP (registration, bidding) and TCP (payment, notifications) using 20-thread ExecutorService pool for scalable client connections}
     \resumeItem{Implemented thread-safe bidding with Semaphore locks and ConcurrentHashMap, managing concurrent bid updates, auction state, and real-time broadcast notifications to subscribers}
-  \resumeItemListEnd
-
-\resumeProjectHeading
-  {\textbf{Autonomous Hovercraft System} $|$ \emph{C++, Arduino, MATLAB, SolidWorks, PID Control}}{Fall 2024}
-  \resumeItemListStart
-    \resumeItem{Developed autonomous navigation with ultrasonic sensing and PID control, achieving 90\% success rate in competition trials through reactive obstacle-avoidance algorithms}
-    \resumeItem{Implemented interrupt-driven embedded firmware for sensor fusion and motor control, processing 50+ readings/sec with real-time guarantees; CFD-optimized fan geometry increased thrust efficiency by 25\%}
   \resumeItemListEnd
 
   \resumeSubHeadingListEnd

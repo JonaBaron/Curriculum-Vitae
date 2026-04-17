@@ -111,6 +111,7 @@ INPUT ./one_page_CV.aux
 INPUT ./one_page_CV.aux
 INPUT one_page_CV.aux
 OUTPUT one_page_CV.aux
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT ./one_page_CV.out
 INPUT ./one_page_CV.out
 INPUT one_page_CV.out
