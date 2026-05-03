@@ -14,6 +14,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{xcolor}
+\usepackage{needspace}
 
 % Page setup
 \pagestyle{fancy}
@@ -53,7 +54,7 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
+    \needspace{5\baselineskip}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
@@ -140,11 +141,10 @@
   \resumeItemListEnd
 
 \resumeProjectHeading
-  {\textbf{Event-Driven E-Commerce Microservices} $|$ \emph{Python, Flask, MongoDB, RabbitMQ, Docker, Azure}}{}
+  {\textbf{TensorFlow Deep Learning Projects} $|$ \emph{Python, TensorFlow, Keras, Scikit-learn, NumPy, Jupyter}}{}
   \resumeItemListStart
-    \resumeItem{Architected event-driven platform with 5 containerized services, achieving eventual consistency across 2 MongoDB databases via RabbitMQ pub/sub messaging with topic-based routing}
-    \resumeItem{Implemented Strangler Pattern for zero-downtime migration with configurable traffic routing (0--100\% split), enabling gradual V1-to-V2 transition while maintaining backward compatibility}
-    \resumeItem{Automated CI/CD pipeline with GitHub Actions deploying to Azure Container Registry with CloudAMQP integration}
+    \resumeItem{Built and trained neural networks across 8+ domains: regression, binary/multi-class classification, computer vision (CNNs), transfer learning, NLP, and time series forecasting}
+    \resumeItem{Implemented end-to-end ML pipelines covering data preprocessing, model architecture design, training, and performance evaluation with confusion matrices and F1 metrics}
   \resumeItemListEnd
 
 \resumeProjectHeading
@@ -159,6 +159,14 @@
   \resumeItemListStart
     \resumeItem{Developed dual-protocol server handling concurrent auctions with UDP (registration, bidding) and TCP (payment, notifications) using 20-thread ExecutorService pool for scalable client connections}
     \resumeItem{Implemented thread-safe bidding with Semaphore locks and ConcurrentHashMap, managing concurrent bid updates, auction state, and real-time broadcast notifications to subscribers}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Event-Driven E-Commerce Microservices} $|$ \emph{Python, Flask, MongoDB, RabbitMQ, Docker, Azure}}{}
+  \resumeItemListStart
+    \resumeItem{Architected event-driven platform with 5 containerized services, achieving eventual consistency across 2 MongoDB databases via RabbitMQ pub/sub messaging with topic-based routing}
+    \resumeItem{Implemented Strangler Pattern for zero-downtime migration with configurable traffic routing (0--100\% split), enabling gradual V1-to-V2 transition while maintaining backward compatibility}
+    \resumeItem{Automated CI/CD pipeline with GitHub Actions deploying to Azure Container Registry with CloudAMQP integration}
   \resumeItemListEnd
 
 \resumeProjectHeading

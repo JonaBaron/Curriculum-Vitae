@@ -14,6 +14,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{xcolor}
+\usepackage{needspace}
 
 % Mise en page
 \pagestyle{fancy}
@@ -53,7 +54,7 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
+    \needspace{5\baselineskip}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
@@ -137,6 +138,13 @@
   \resumeItemListStart
     \resumeItem{Dirig\'{e} une \'{e}quipe de 5 personnes pour concevoir et construire un a\'{e}roglisseur autonome, int\'{e}grant un contr\^{o}le embarqu\'{e} Arduino avec simulation fluidique SolidWorks et mod\'{e}lisation MATLAB pour les syst\`{e}mes de propulsion et de navigation}
     \resumeItem{G\'{e}r\'{e} l'ensemble du cycle de vie du projet, de la conception mat\'{e}rielle \`{a} la comp\'{e}tition, avec une d\'{e}monstration r\'{e}ussie de navigation autonome}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Projets d'apprentissage profond TensorFlow} $|$ \emph{Python, TensorFlow, Keras, Scikit-learn, NumPy, Jupyter}}{}
+  \resumeItemListStart
+    \resumeItem{Con\c{c}u et entra\^{i}n\'{e} des r\'{e}seaux de neurones sur 8+ domaines : r\'{e}gression, classification binaire/multi-classes, vision par ordinateur (CNN), transfer learning, NLP et pr\'{e}vision de s\'{e}ries temporelles}
+    \resumeItem{Impl\'{e}ment\'{e} des pipelines ML complets couvrant le pr\'{e}traitement des donn\'{e}es, la conception d'architectures, l'entra\^{i}nement et l'\'{e}valuation des performances avec matrices de confusion et m\'{e}triques F1}
   \resumeItemListEnd
 
 \resumeProjectHeading
