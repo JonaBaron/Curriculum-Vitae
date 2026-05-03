@@ -70,22 +70,28 @@
 
 %----------HEADING----------
 \begin{center}
-    \textbf{\Huge Jonathan Mehmannavaz} \\ \vspace{2pt}
+    \textbf{\Huge Jonathan Mehmannavaz} \\ \vspace{1pt}
     \small +1 (514) 926-7814 $|$
-    \href{mailto:mehmannavazjonathan@gmail.com}{mehmannavazjonathan@gmail.com} $|$
-    \href{https://linkedin.com/in/jonathan-mehmannavaz/}{LinkedIn} $|$
-    \href{https://github.com/JonaBaron}{GitHub} $|$
-    \href{https://JonaBaron.github.io}{Portfolio}
+    \href{mailto:mehmannavazjonathan@gmail.com}{mehmannavazjonathan@gmail.com} \\
+    \href{https://linkedin.com/in/jonathan-mehmannavaz/}{linkedin.com/in/jonathan-mehmannavaz} $|$
+    \href{https://github.com/JonaBaron}{github.com/JonaBaron} $|$
+    \href{https://JonaBaron.github.io}{JonaBaron.github.io}
 \end{center}
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Bachelor of Engineering in Computer Engineering}{Sep 2022 -- Apr 2026 }
+      {Bachelor of Engineering in Computer Engineering}{Sep 2022 -- Apr 2026}
       {Concordia University}{Montreal, QC}
       \resumeItemListStart
-        \resumeItem{Relevant Coursework: Cloud Computing, Digital System Design, Embedded Systems, Communication Networks \& Protocols Artificial Intelligence, Computer Graphics, Applied Machine Learning \& Evolutionary Algorithms}
+        \resumeItem{Relevant Coursework: Cloud Computing, Digital System Design, Embedded Systems, Communication Networks \& Protocols, Artificial Intelligence, Computer Graphics, Applied Machine Learning \& Evolutionary Algorithms}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Technological Academic Path in Engineering}{2021 -- 2022}
+      {\'{E}cole de technologie sup\'{e}rieure (ETS)}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework: Computer \& Technical Drawing for Engineers, Programmable Logic Controllers (PLCs), Sequential Logic}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -93,12 +99,12 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, C/C++, Java, JavaScript, PL-SQL, VHDL, Bash, Assembly} \\
-     \textbf{Frameworks}{: Flask, React, Node.js, Express.js, gRPC, Protocol Buffers, TensorFlow, Keras} \\
+     \textbf{Languages}{: Python, C/C++, Java, JavaScript, Swift, HTML/CSS, PL-SQL, VHDL, Bash, Assembly} \\
+     \textbf{Frameworks \& Libraries}{: Flask, React, Node.js, Express.js, Streamlit, gRPC, Protocol Buffers, TensorFlow, Keras, Scikit-learn} \\
      \textbf{Cloud/DevOps}{: Docker, Azure, Google Cloud, MongoDB, PostgreSQL, Redis, RabbitMQ, GitHub Actions} \\
-     \textbf{Embedded/Hardware}{: Arduino, FPGA, ARM Cortex-M, PLC, MATLAB, SolidWorks, Altium Designer, Git, Linux}
-     \textbf{Languages}{: French (Native), English (Fluent), German (Beginner)}
-     }}
+     \textbf{Tools \& Hardware}{: Git, Linux, Arduino, FPGA, ARM Cortex-M, PLC, MATLAB, SolidWorks, Altium Designer, ModelSim, Power BI, SAP} \\
+     \textbf{Human Languages}{: French (Native), English (Fluent), German (Beginner)}
+    }}
  \end{itemize}
 
 %-----------EXPERIENCE-----------
@@ -109,8 +115,8 @@
       {Fuse Energy $|$ Concordia University (ELEC/COEN 490)}{Montreal, QC}
       \resumeItemListStart
         \resumeItem{Led 6-person cross-disciplinary team as project manager, coordinating firmware, hardware, and software workstreams to deliver a modular industrial digital control system}
-        \resumeItem{Developed real-time embedded firmware on STM32 MCU with Modbus TCP/IP, ADC/DAC drivers, and safety-critical control logic under an RTOS}
-        \resumeItem{Built full-stack supervisory application (FastAPI backend, React frontend) with real-time monitoring dashboard, automated sequencing, and safety interlock management}
+        \resumeItem{Developed real-time embedded firmware with industrial communication protocols, hardware interfacing drivers, and safety-critical control logic under an RTOS}
+        \resumeItem{Built full-stack supervisory application (FastAPI backend, React frontend) with real-time monitoring dashboard and automated control sequencing}
       \resumeItemListEnd
     \resumeSubheading
       {Co-op Supervisor}{Sep 2023 -- Dec 2023}
@@ -127,32 +133,47 @@
   \resumeSubHeadingListStart
 
 \resumeProjectHeading
-  {\textbf{Event-Driven E-Commerce Microservices} $|$ \emph{Python, Flask, MongoDB, RabbitMQ, Docker, Azure}}{Fall 2025}
+  {\textbf{Autonomous Hovercraft} $|$ \emph{Arduino, C++, SolidWorks, MATLAB, Embedded Programming}}{}
+  \resumeItemListStart
+    \resumeItem{Led 5-person team to design and build an autonomous hovercraft, integrating Arduino-based embedded control with SolidWorks fluid simulation and MATLAB modelling for propulsion and navigation systems}
+    \resumeItem{Managed full project lifecycle from hardware design and fabrication through competition, achieving successful autonomous navigation demonstration}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Event-Driven E-Commerce Microservices} $|$ \emph{Python, Flask, MongoDB, RabbitMQ, Docker, Azure}}{}
   \resumeItemListStart
     \resumeItem{Architected event-driven platform with 5 containerized services, achieving eventual consistency across 2 MongoDB databases via RabbitMQ pub/sub messaging with topic-based routing}
     \resumeItem{Implemented Strangler Pattern for zero-downtime migration with configurable traffic routing (0--100\% split), enabling gradual V1-to-V2 transition while maintaining backward compatibility}
-    \resumeItem{Automated CI/CD pipeline with GitHub Actions deploying to Azure Container with CloudAMQP integration}
+    \resumeItem{Automated CI/CD pipeline with GitHub Actions deploying to Azure Container Registry with CloudAMQP integration}
   \resumeItemListEnd
 
 \resumeProjectHeading
-  {\textbf{Distributed Query Microservice} $|$ \emph{Python, gRPC, Protocol Buffers, Redis, Google Cloud Run, Docker}}{Fall 2025}
+  {\textbf{Remote-Controlled Tower Crane} $|$ \emph{PCB Design, SolidWorks, Altium Designer, Laser Cutting, 3D Printing, CNC}}{}
   \resumeItemListStart
-    \resumeItem{Developed gRPC microservice with Protocol Buffers (6 message types) querying Nobel Prize data, deployed to Google Cloud Run with Redis/RediSearch indexing for sub-second query latency}
-    \resumeItem{Benchmarked 300+ queries with statistical analysis, validating production-ready performance for cloud-deployed architecture}
+    \resumeItem{Collaborated with 5-person team to design and fabricate a fully functional remote-controlled tower crane, handling PCB design in Altium Designer, mechanical modelling in SolidWorks, and manufacturing via laser cutting, 3D printing, and CNC machining}
+    \resumeItem{Contributed across all phases from conceptualization to final testing, delivering a working system that met all project specifications}
   \resumeItemListEnd
 
 \resumeProjectHeading
-  {\textbf{Distributed Real-Time Auction System} $|$ \emph{Java, UDP/TCP Sockets, Multithreading, Concurrency}}{Winter 2025}
+  {\textbf{Distributed Real-Time Auction System} $|$ \emph{Java, UDP/TCP Sockets, Multithreading, Concurrency}}{}
   \resumeItemListStart
     \resumeItem{Developed dual-protocol server handling concurrent auctions with UDP (registration, bidding) and TCP (payment, notifications) using 20-thread ExecutorService pool for scalable client connections}
     \resumeItem{Implemented thread-safe bidding with Semaphore locks and ConcurrentHashMap, managing concurrent bid updates, auction state, and real-time broadcast notifications to subscribers}
   \resumeItemListEnd
 
+\resumeProjectHeading
+  {\textbf{Job Finder Web Application} $|$ \emph{Python, Streamlit, MongoDB, Google OAuth, REST API}}{}
+  \resumeItemListStart
+    \resumeItem{Built full-stack job search and application tracking platform with Google OAuth authentication, dual MongoDB instances for user data and listings, and paginated JSearch API integration (up to 100 jobs/call)}
+    \resumeItem{Designed modular architecture with custom status workflow (New, Applied, Interview, Offered) and per-user query management}
+  \resumeItemListEnd
+
   \resumeSubHeadingListEnd
 
-%-----------ADDITIONAL EXPERIENCE-----------
+%-----------LEADERSHIP & ACTIVITIES-----------
 \section{Leadership \& Activities}
   \resumeSubHeadingListStart
+    \resumeItem{\textbf{2nd Place, Civil Volleyball Club} -- Blockstorm Team, Summer 2025: Runner-up finish in recreational league competition}
     \resumeItem{\textbf{Regional RSEQ Champion} -- Football Team (2017-2019): Gold and silver medal winner}
     \resumeItem{\textbf{International Solidarity Trip} -- Guatemala (2019): Built infrastructure for underserved communities}
   \resumeSubHeadingListEnd

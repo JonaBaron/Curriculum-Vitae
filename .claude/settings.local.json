@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(pdflatex -interaction=nonstopmode one_page_CV.tex)"
+      "Bash(pdflatex -interaction=nonstopmode one_page_CV.tex)",
+      "Bash(pdflatex -interaction=nonstopmode one_page_CV_FR.tex)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }

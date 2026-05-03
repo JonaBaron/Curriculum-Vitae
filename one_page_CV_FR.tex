@@ -1,0 +1,181 @@
+%-------------------------
+% Curriculum vitae en LaTeX
+% Auteur : Jonathan Mehmannavaz
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+% Mise en page
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Formatage des sections
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% Commandes personnalis\'{e}es
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------EN-T\^{E}TE----------
+\begin{center}
+    \textbf{\Huge Jonathan Mehmannavaz} \\ \vspace{1pt}
+    \small +1 (514) 926-7814 $|$
+    \href{mailto:mehmannavazjonathan@gmail.com}{mehmannavazjonathan@gmail.com} \\
+    \href{https://linkedin.com/in/jonathan-mehmannavaz/}{linkedin.com/in/jonathan-mehmannavaz} $|$
+    \href{https://github.com/JonaBaron}{github.com/JonaBaron} $|$
+    \href{https://JonaBaron.github.io}{JonaBaron.github.io}
+\end{center}
+
+%-----------FORMATION-----------
+\section{Formation}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Baccalaur\'{e}at en g\'{e}nie informatique}{Sept. 2022 -- Avr. 2026}
+      {Universit\'{e} Concordia}{Montr\'{e}al, QC}
+      \resumeItemListStart
+        \resumeItem{Cours pertinents : Cloud Computing, Digital System Design, Syst\`{e}mes embarqu\'{e}s, R\'{e}seaux \& protocoles de communication, Intelligence artificielle, Computer Graphics, Applied Machine Learning \& Evolutionary Algorithms}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Parcours universitaire technologique en ing\'{e}nierie}{2021 -- 2022}
+      {\'{E}cole de technologie sup\'{e}rieure (ETS)}{Montr\'{e}al, QC}
+      \resumeItemListStart
+        \resumeItem{Cours pertinents : Dessin technique assist\'{e} par ordinateur pour ing\'{e}nieurs, Automates programmables industriels (API), Logique s\'{e}quentielle}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------COMP\'{E}TENCES TECHNIQUES-----------
+\section{Comp\'{e}tences techniques}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Langages}{: Python, C/C++, Java, JavaScript, Swift, HTML/CSS, PL-SQL, VHDL, Bash, Assembly} \\
+     \textbf{Frameworks et biblioth\`{e}ques}{: Flask, React, Node.js, Express.js, Streamlit, gRPC, Protocol Buffers, TensorFlow, Keras, Scikit-learn} \\
+     \textbf{Cloud/DevOps}{: Docker, Azure, Google Cloud, MongoDB, PostgreSQL, Redis, RabbitMQ, GitHub Actions} \\
+     \textbf{Outils et mat\'{e}riel}{: Git, Linux, Arduino, FPGA, ARM Cortex-M, API, MATLAB, SolidWorks, Altium Designer, ModelSim, Power BI, SAP} \\
+     \textbf{Langues}{: Fran\c{c}ais (natif), Anglais (courant), Allemand (d\'{e}butant)}
+    }}
+ \end{itemize}
+
+%-----------EXP\'{E}RIENCE PROFESSIONNELLE-----------
+\section{Exp\'{e}rience professionnelle}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ing\'{e}nieur de projet capstone \& Chef de projet}{Sept. 2025 -- Avr. 2026}
+      {Fuse Energy $|$ Universit\'{e} Concordia (ELEC/COEN 490)}{Montr\'{e}al, QC}
+      \resumeItemListStart
+        \resumeItem{Dirig\'{e} une \'{e}quipe interdisciplinaire de 6 personnes en tant que chef de projet, coordonnant les volets firmware, hardware et software pour livrer un syst\`{e}me de contr\^{o}le num\'{e}rique industriel modulaire}
+        \resumeItem{D\'{e}velopp\'{e} un firmware embarqu\'{e} temps r\'{e}el int\'{e}grant des protocoles de communication industriels, des pilotes mat\'{e}riels et une logique de contr\^{o}le de s\'{e}curit\'{e} critique sous RTOS}
+        \resumeItem{Cod\'{e} une application full-stack de supervision (backend FastAPI, frontend React) avec monitoring en temps r\'{e}el et s\'{e}quencement automatis\'{e} des commandes}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Superviseur coop}{Sept. 2023 -- D\'{e}c. 2023}
+      {Pratt \& Whitney Canada}{St-Hubert, QC}
+      \resumeItemListStart
+        \resumeItem{Initi\'{e} un syst\`{e}me de balayage RF et de suivi des KPIs pour combler les lacunes de visibilit\'{e} des stocks\,; d\'{e}fini les exigences et coordonn\'{e} l'alignement des parties prenantes}
+        \resumeItem{Men\'{e} des initiatives de gestion du changement en fabrication, r\'{e}duisant les d\'{e}fauts de non-qualit\'{e} par des am\'{e}liorations de proc\'{e}d\'{e}s et des programmes de formation}
+        \resumeItem{Supervis\'{e} une \'{e}quipe de 12 employ\'{e}s syndiq\'{e}s en fabrication a\'{e}rospatiale, coordonnant les op\'{e}rations quotidiennes, les affectations de t\^{a}ches et la planification de la production}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJETS-----------
+\section{Projets}
+  \resumeSubHeadingListStart
+
+\resumeProjectHeading
+  {\textbf{A\'{e}roglisseur autonome} $|$ \emph{Arduino, C++, SolidWorks, MATLAB, Programmation embarqu\'{e}e}}{}
+  \resumeItemListStart
+    \resumeItem{Dirig\'{e} une \'{e}quipe de 5 personnes pour concevoir et construire un a\'{e}roglisseur autonome, int\'{e}grant un contr\^{o}le embarqu\'{e} Arduino avec simulation fluidique SolidWorks et mod\'{e}lisation MATLAB pour les syst\`{e}mes de propulsion et de navigation}
+    \resumeItem{G\'{e}r\'{e} l'ensemble du cycle de vie du projet, de la conception mat\'{e}rielle \`{a} la comp\'{e}tition, avec une d\'{e}monstration r\'{e}ussie de navigation autonome}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Microservices e-commerce \`{a} \'{e}v\'{e}nements} $|$ \emph{Python, Flask, MongoDB, RabbitMQ, Docker, Azure}}{}
+  \resumeItemListStart
+    \resumeItem{Architectur\'{e} une plateforme orient\'{e}e \'{e}v\'{e}nements avec 5 services conteneuris\'{e}s, assurant la coh\'{e}rence \'{e}ventuelle entre 2 bases MongoDB via la messagerie pub/sub RabbitMQ avec routage par sujet}
+    \resumeItem{Impl\'{e}ment\'{e} le patron Strangler pour une migration sans interruption avec routage configurable (0--100\%), permettant une transition progressive V1 vers V2 en maintenant la compatibilit\'{e} descendante}
+    \resumeItem{Automatis\'{e} le pipeline CI/CD avec GitHub Actions d\'{e}ployant vers Azure Container Registry avec int\'{e}gration CloudAMQP}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Grue \`{a} tour t\'{e}l\'{e}command\'{e}e} $|$ \emph{Conception PCB, SolidWorks, Altium Designer, D\'{e}coupe laser, Impression 3D, CNC}}{}
+  \resumeItemListStart
+    \resumeItem{Collabor\'{e} avec une \'{e}quipe de 5 personnes pour concevoir et fabriquer une grue \`{a} tour t\'{e}l\'{e}command\'{e}e fonctionnelle, r\'{e}alisant la conception PCB sous Altium Designer, la mod\'{e}lisation m\'{e}canique sous SolidWorks et la fabrication par d\'{e}coupe laser, impression 3D et usinage CNC}
+    \resumeItem{Contribu\'{e} \`{a} toutes les \'{e}tapes du projet, de la conceptualisation aux tests finaux, livrant un syst\`{e}me op\'{e}rationnel r\'{e}pondant \`{a} toutes les sp\'{e}cifications}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Syst\`{e}me d'ench\`{e}res distribu\'{e} en temps r\'{e}el} $|$ \emph{Java, UDP/TCP Sockets, Multithreading, Concurrency}}{}
+  \resumeItemListStart
+    \resumeItem{D\'{e}velopp\'{e} un serveur double-protocole g\'{e}rant des ench\`{e}res concurrentes avec UDP (inscription, mises) et TCP (paiement, notifications) via un pool ExecutorService de 20 threads pour des connexions \'{e}volutives}
+    \resumeItem{Impl\'{e}ment\'{e} un m\'{e}canisme d'ench\`{e}res s\^{u}r avec Semaphore locks et ConcurrentHashMap, g\'{e}rant les mises concurrentes et les notifications diffus\'{e}es en temps r\'{e}el aux abonn\'{e}s}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Application de recherche d'emploi} $|$ \emph{Python, Streamlit, MongoDB, Google OAuth, REST API}}{}
+  \resumeItemListStart
+    \resumeItem{Construit une plateforme full-stack de recherche et de suivi de candidatures avec authentification Google OAuth, deux instances MongoDB distinctes et int\'{e}gration paginée de l'API JSearch (jusqu'\`{a} 100 offres par appel)}
+    \resumeItem{Con\c{c}u une architecture modulaire avec flux de statuts personnalis\'{e}s (Nouveau, Postul\'{e}, Entretien, Offre) et gestion des requ\^{e}tes par utilisateur}
+  \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP ET ACTIVIT\'{E}S-----------
+\section{Leadership \& Activit\'{e}s}
+  \resumeSubHeadingListStart
+    \resumeItem{\textbf{2\textsuperscript{e} place au club de volleyball civil} -- \'{E}quipe Blockstorm, \'{E}t\'{e} 2025 : Classement finaliste lors de la comp\'{e}tition en ligue r\'{e}cr\'{e}ative}
+    \resumeItem{\textbf{Champion r\'{e}gional RSEQ} -- \'{E}quipe de football (2017-2019) : M\'{e}daill\'{e} d'or et d'argent}
+    \resumeItem{\textbf{Voyage de solidarit\'{e} internationale} -- Guatemala (2019) : Construction d'infrastructures pour des communaut\'{e}s d\'{e}favoris\'{e}es}
+  \resumeSubHeadingListEnd
+
+\end{document}

@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded forma
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**one_page_CV.tex
-(./one_page_CV.tex
+**one_page_CV_FR.tex
+(./one_page_CV_FR.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -288,8 +288,8 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box56
 )
-(./one_page_CV.aux)
-\openout1 = `one_page_CV.aux'.
+(./one_page_CV_FR.aux)
+\openout1 = `one_page_CV_FR.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
@@ -310,9 +310,9 @@ LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 Package hyperref Info: Link coloring ON on input line 69.
- (./one_page_CV.out) (./one_page_CV.out)
+ (./one_page_CV_FR.out) (./one_page_CV_FR.out)
 \@outlinefile=\write3
-\openout3 = `one_page_CV.out'.
+\openout3 = `one_page_CV_FR.out'.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -355,33 +355,34 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[2] (./one_page_CV.aux)
+[2] (./one_page_CV_FR.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `one_page_CV.out' has not changed.
-(rerunfilecheck)             Checksum: F22C581229D42EDA537F449223672A8C;557.
+Package rerunfilecheck Info: File `one_page_CV_FR.out' has not changed.
+(rerunfilecheck)             Checksum: 665D42A7C79D953303A32F89C803095B;669.
  ) 
 Here is how much of TeX's memory you used:
- 10757 strings out of 473190
- 170953 string characters out of 5715801
- 612663 words of memory out of 5000000
- 33906 multiletter control sequences out of 15000+600000
- 563793 words of font info for 52 fonts, out of 8000000 for 9000
+ 10766 strings out of 473190
+ 171085 string characters out of 5715801
+ 614678 words of memory out of 5000000
+ 33914 multiletter control sequences out of 15000+600000
+ 564103 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,303b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,400b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on one_page_CV.pdf (2 pages, 111521 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on one_page_CV_FR.pdf (2 pages, 120562 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
