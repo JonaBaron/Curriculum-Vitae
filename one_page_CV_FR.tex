@@ -6,12 +6,13 @@
 \documentclass[letterpaper,12pt]{article}
 
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
 \usepackage{fancyhdr}
-\usepackage[english]{babel}
+\usepackage[french]{babel}
 \usepackage{tabularx}
 \usepackage{xcolor}
 \usepackage{needspace}
@@ -35,13 +36,13 @@
 
 % Formatage des sections
 \titleformat{\section}{
-  \vspace{-6pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+  \vspace{-1pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-2pt}]
 
 % Commandes personnalis\'{e}es
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{0pt}}
   }
 }
 
@@ -50,28 +51,30 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \needspace{5\baselineskip}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, label={$\vcenter{\hbox{\scriptsize$\bullet$}}$}, itemsep=2pt, topsep=2pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+\let\resumeProjectItemListStart\resumeItemListStart
+\let\resumeProjectItemListEnd\resumeItemListEnd
 
 \begin{document}
 
 %----------EN-T\^{E}TE----------
 \begin{center}
-    \textbf{\Huge Jonathan Mehmannavaz} \\ \vspace{1pt}
+    \textbf{\fontsize{32}{38}\selectfont Jonathan Mehmannavaz} \\ \vspace{18pt}
     \small +1 (514) 926-7814 $|$
     \href{mailto:mehmannavazjonathan@gmail.com}{mehmannavazjonathan@gmail.com} \\
     \href{https://linkedin.com/in/jonathan-mehmannavaz/}{linkedin.com/in/jonathan-mehmannavaz} $|$
@@ -79,112 +82,115 @@
     \href{https://JonaBaron.github.io}{JonaBaron.github.io}
 \end{center}
 
+\vspace{18pt}
+
 %-----------FORMATION-----------
 \section{Formation}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Baccalaur\'{e}at en g\'{e}nie informatique}{Sept. 2022 -- Avr. 2026}
-      {Universit\'{e} Concordia}{Montr\'{e}al, QC}
+      {Universit\'{e} Concordia}{Montr\'{e}al, Qu\'{e}bec}
       \resumeItemListStart
-        \resumeItem{Cours pertinents : Intelligence artificielle, Apprentissage automatique appliqu\'{e} \& algorithmes \'{e}volutionnaires, Syst\`{e}mes embarqu\'{e}s, Infonuagique, R\'{e}seaux \& protocoles de communication, Conception de syst\`{e}mes num\'{e}riques, Infographie}
+        \resumeItem{Cours pertinents : Intelligence artificielle, Apprentissage automatique appliqu\'{e} \& algorithmes \'{e}volutionnaires, Syst\`{e}mes embarqu\'{e}s, Infonuagique, R\'{e}seaux \& protocoles de communication, Conception de syst\`{e}mes num\'{e}riques}
       \resumeItemListEnd
     \resumeSubheading
       {Parcours universitaire technologique en ing\'{e}nierie}{2021 -- 2022}
-      {\'{E}cole de technologie sup\'{e}rieure (ETS)}{Montr\'{e}al, QC}
+      {\'{E}cole de technologie sup\'{e}rieure (ETS)}{Montr\'{e}al, Qu\'{e}bec}
       \resumeItemListStart
         \resumeItem{Cours pertinents : Automates programmables industriels (PLCs), Logique s\'{e}quentielle, Dessin technique assist\'{e} par ordinateur pour ing\'{e}nieurs}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----------COMP\'{E}TENCES TECHNIQUES-----------
-\section{Comp\'{e}tences techniques}
+\section{Comp\'{e}tences techniques et autres}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Langages}{: Python, C/C++, Java, JavaScript, Swift, HTML/CSS, PL-SQL, VHDL, Bash, Assembly} \\
      \textbf{Frameworks et biblioth\`{e}ques}{: Flask, React, Node.js, Express.js, Streamlit, gRPC, Protocol Buffers, TensorFlow, Keras, Scikit-learn} \\
      \textbf{Cloud/DevOps}{: Docker, Azure, Google Cloud, MongoDB, PostgreSQL, Redis, RabbitMQ, GitHub Actions} \\
      \textbf{Outils et mat\'{e}riel}{: Git, Linux, Arduino, FPGA, ARM Cortex-M, PLCs, MATLAB, SolidWorks, Altium Designer, ModelSim, Power BI, SAP} \\
-     \textbf{Langues}{: Fran\c{c}ais (natif), Anglais (courant), Allemand (d\'{e}butant)} \\
+     \textbf{Langues}{: fran\c{c}ais (natif), anglais (courant), allemand (d\'{e}butant)} \\
      \textbf{Certifications}{: TensorFlow for Deep Learning Bootcamp (Udemy), Power BI (Udemy), D\'{e}veloppement iOS (Udemy)}
     }}
  \end{itemize}
 
 %-----------EXP\'{E}RIENCE PROFESSIONNELLE-----------
-\section{Exp\'{e}rience professionnelle}
+\section{Exp\'{e}riences}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Ing\'{e}nieur de projet capstone \& Chef de projet}{Sept. 2025 -- Avr. 2026}
-      {Fuse Energy $|$ Universit\'{e} Concordia (ELEC/COEN 490)}{Montr\'{e}al, QC}
+      {Ing\'{e}nieur de projet capstone \& chef de projet}{Sept. 2025 -- Avr. 2026}
+      {Fuse Energy $|$ Universit\'{e} Concordia (ELEC/COEN 490)}{Montr\'{e}al, Qu\'{e}bec}
       \resumeItemListStart
-        \resumeItem{G\'{e}r\'{e} une \'{e}quipe de 6 personnes pour concevoir un syst\`{e}me de contr\^{o}le industriel, en coordonnant le d\'{e}veloppement firmware, hardware et logiciel}
-        \resumeItem{\'{E}crit un firmware embarqu\'{e} temps r\'{e}el avec protocoles industriels, pilotes mat\'{e}riels et logique de s\'{e}curit\'{e} sous RTOS}
-        \resumeItem{D\'{e}velopp\'{e} une application web (FastAPI + React) pour surveiller et contr\^{o}ler le syst\`{e}me en temps r\'{e}el}
+        \resumeItem{G\`{e}re une \'{e}quipe de 6 personnes pour concevoir un syst\`{e}me de contr\^{o}le industriel, en coordonnant le d\'{e}veloppement du firmware, du hardware et du logiciel}
+        \resumeItem{D\'{e}veloppe un firmware embarqu\'{e} en temps r\'{e}el avec des protocoles industriels, des pilotes mat\'{e}riels et une logique de s\'{e}curit\'{e} sous RTOS}
+        \resumeItem{D\'{e}veloppe une application web (FastAPI + React) pour surveiller et contr\^{o}ler le syst\`{e}me en temps r\'{e}el}
       \resumeItemListEnd
     \resumeSubheading
       {Superviseur coop}{Sept. 2023 -- D\'{e}c. 2023}
-      {Pratt \& Whitney Canada}{St-Hubert, QC}
+      {Pratt \& Whitney Canada}{St-Hubert, Qu\'{e}bec}
       \resumeItemListStart
-        \resumeItem{Propos\'{e} et contribu\'{e} \`{a} mettre en place un syst\`{e}me de balayage RF et de suivi des indicateurs pour am\'{e}liorer la gestion des stocks}
-        \resumeItem{Men\'{e} des am\'{e}liorations de proc\'{e}d\'{e}s et des formations qui ont r\'{e}duit les d\'{e}fauts de fabrication}
-        \resumeItem{Supervis\'{e} 12 employ\'{e}s syndiq\'{e}s en fabrication a\'{e}rospatiale, g\'{e}rant les op\'{e}rations quotidiennes et la planification}
+        \resumeItem{Propose et contribue \`{a} mettre en place un syst\`{e}me de balayage RF et de suivi des indicateurs pour am\'{e}liorer la gestion des stocks}
+        \resumeItem{A men\'{e} des am\'{e}liorations pour les proc\'{e}d\'{e}s et les formations qui ont r\'{e}duit les d\'{e}fauts de fabrication}
+        \resumeItem{Supervise 12 employ\'{e}s syndiqu\'{e}s en fabrication a\'{e}rospatiale, ainsi que la gestion des op\'{e}rations quotidiennes et la planification}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----------PROJETS-----------
+\newpage
 \section{Projets}
   \resumeSubHeadingListStart
 
 \resumeProjectHeading
-  {\textbf{A\'{e}roglisseur autonome} $|$ \emph{Arduino, C++, SolidWorks, MATLAB, Programmation embarqu\'{e}e}}{}
-  \resumeItemListStart
-    \resumeItem{Dirig\'{e} une \'{e}quipe de 5 personnes pour concevoir et construire un a\'{e}roglisseur autonome avec Arduino, SolidWorks et MATLAB}
-    \resumeItem{G\'{e}r\'{e} le projet de la conception \`{a} la comp\'{e}tition, avec une d\'{e}monstration r\'{e}ussie de navigation autonome}
-  \resumeItemListEnd
-
-\resumeProjectHeading
-  {\textbf{Projets d'apprentissage profond TensorFlow} $|$ \emph{Python, TensorFlow, Keras, Scikit-learn, NumPy, Jupyter}}{}
-  \resumeItemListStart
-    \resumeItem{Entra\^{i}n\'{e} des r\'{e}seaux de neurones sur 8+ t\^{a}ches : r\'{e}gression, classification, vision par ordinateur, NLP et pr\'{e}vision de s\'{e}ries temporelles}
-    \resumeItem{Construit des pipelines ML complets du pr\'{e}traitement des donn\'{e}es \`{a} l'\'{e}valuation des mod\`{e}les avec matrices de confusion et scores F1}
-  \resumeItemListEnd
-
-\resumeProjectHeading
   {\textbf{Microservices e-commerce \`{a} \'{e}v\'{e}nements} $|$ \emph{Python, Flask, MongoDB, RabbitMQ, Docker, Azure}}{}
-  \resumeItemListStart
+  \resumeProjectItemListStart
     \resumeItem{Construit une plateforme \'{e}v\'{e}nementielle avec 5 services Docker synchronis\'{e}s entre 2 bases MongoDB via RabbitMQ}
-    \resumeItem{Ajout\'{e} un partage de trafic (0--100\%) pour migrer de V1 \`{a} V2 sans interruption de service}
-    \resumeItem{Mis en place un pipeline CI/CD avec GitHub Actions pour d\'{e}ployer automatiquement sur Azure}
-  \resumeItemListEnd
-
-\resumeProjectHeading
-  {\textbf{Grue \`{a} tour t\'{e}l\'{e}command\'{e}e} $|$ \emph{SolidWorks, Altium Designer, D\'{e}coupe laser, Impression 3D}}{}
-  \resumeItemListStart
-    \resumeItem{Travaill\'{e} avec une \'{e}quipe de 5 personnes pour concevoir et fabriquer une grue \`{a} tour t\'{e}l\'{e}command\'{e}e, en r\'{e}alisant la conception PCB, la mod\'{e}lisation 3D et la fabrication}
-    \resumeItem{Particip\'{e} \`{a} toutes les \'{e}tapes du projet, de la conception aux tests finaux, en respectant toutes les sp\'{e}cifications}
-  \resumeItemListEnd
+    \resumeItem{Impl\'{e}mente un partage de trafic (0--100\%) pour migrer de V1 \`{a} V2 sans interruption de service}
+    \resumeItem{Mise en place un pipeline CI/CD avec GitHub Actions pour d\'{e}ployer automatiquement sur Azure}
+  \resumeProjectItemListEnd
 
 \resumeProjectHeading
   {\textbf{Syst\`{e}me d'ench\`{e}res distribu\'{e} en temps r\'{e}el} $|$ \emph{Java, UDP/TCP Sockets, Multithreading, Concurrency}}{}
-  \resumeItemListStart
-    \resumeItem{D\'{e}velopp\'{e} un serveur g\'{e}rant des ench\`{e}res en direct via UDP (inscription, mises) et TCP (paiements, notifications) avec un pool de 20 threads}
-    \resumeItem{Rendu les ench\`{e}res thread-safe avec des verrous et structures de donn\'{e}es concurrentes, avec notifications en temps r\'{e}el aux utilisateurs}
-  \resumeItemListEnd
+  \resumeProjectItemListStart
+    \resumeItem{D\'{e}veloppe un serveur g\'{e}rant des ench\`{e}res en direct via UDP (inscription, mises) et TCP (paiements, notifications) avec un pool de 20 threads}
+    \resumeItem{D\'{e}veloppe les ench\`{e}res thread-safe avec des verrous et des structures de donn\'{e}es concurrentes, avec des notifications en temps r\'{e}el aux utilisateurs}
+  \resumeProjectItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Apprentissage profond TensorFlow} $|$ \emph{Python, TensorFlow, Keras, Scikit-learn, NumPy, Jupyter}}{}
+  \resumeProjectItemListStart
+    \resumeItem{Entra\^{i}ne des r\'{e}seaux de neurones sur 8+ t\^{a}ches : r\'{e}gression, classification, vision par ordinateur, NLP et pr\'{e}vision de s\'{e}ries temporelles}
+    \resumeItem{Construit des pipelines ML complets du pr\'{e}traitement des donn\'{e}es \`{a} l'\'{e}valuation des mod\`{e}les, avec des matrices de confusion et des scores F1}
+  \resumeProjectItemListEnd
+
+\resumeProjectHeading
+  {\textbf{A\'{e}roglisseur autonome} $|$ \emph{Arduino, C++, SolidWorks, MATLAB, Programmation embarqu\'{e}e}}{}
+  \resumeProjectItemListStart
+    \resumeItem{Dirige une \'{e}quipe de 5 personnes pour concevoir et construire un a\'{e}roglisseur autonome avec Arduino, SolidWorks et MATLAB}
+    \resumeItem{G\'{e}re le projet de la conception \`{a} la comp\'{e}tition, avec une d\'{e}monstration r\'{e}ussie de navigation autonome}
+  \resumeProjectItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Grue \`{a} tour t\'{e}l\'{e}command\'{e}e} $|$ \emph{SolidWorks, Altium Designer, D\'{e}coupe laser, Impression 3D}}{}
+  \resumeProjectItemListStart
+    \resumeItem{Collabore avec une \'{e}quipe de 5 personnes pour concevoir et construire une grue \`{a} tour t\'{e}l\'{e}command\'{e}e, en r\'{e}alisant la conception PCB, la mod\'{e}lisation 3D et l'assemblage}
+    \resumeItem{Participe \`{a} toutes les \'{e}tapes du projet, de la conception aux tests finaux, en respectant toutes les sp\'{e}cifications}
+  \resumeProjectItemListEnd
 
 \resumeProjectHeading
   {\textbf{Application de recherche d'emploi} $|$ \emph{Python, Streamlit, MongoDB, Google OAuth, REST API}}{}
-  \resumeItemListStart
-    \resumeItem{D\'{e}velopp\'{e} une application de recherche d'emploi avec connexion Google, deux bases MongoDB et des offres en direct via l'API JSearch}
-    \resumeItem{Ajout\'{e} un suivi de candidatures avec statuts personnalis\'{e}s (Nouveau, Postul\'{e}, Entretien, Offre) et historique par utilisateur}
-  \resumeItemListEnd
+  \resumeProjectItemListStart
+    \resumeItem{D\'{e}veloppe une application de recherche d'emploi avec une connexion Google, deux bases MongoDB et des offres en direct via l'API JSearch}
+    \resumeItem{Ajout d'un suivi de candidatures avec des statuts personnalis\'{e}s (Nouveau, Postul\'{e}, Entretien, Offre) et un historique par utilisateur}
+  \resumeProjectItemListEnd
 
   \resumeSubHeadingListEnd
 
 %-----------LEADERSHIP ET ACTIVIT\'{E}S-----------
 \section{Leadership \& Activit\'{e}s}
-  \resumeSubHeadingListStart
+  \resumeItemListStart
     \resumeItem{\textbf{2\textsuperscript{e} place au club de volleyball civil} -- \'{E}quipe Blockstorm, \'{E}t\'{e} 2025 : Classement finaliste lors de la comp\'{e}tition en ligue r\'{e}cr\'{e}ative}
     \resumeItem{\textbf{Champion r\'{e}gional RSEQ} -- \'{E}quipe de football (2017-2019) : M\'{e}daill\'{e} d'or et d'argent}
     \resumeItem{\textbf{Voyage de solidarit\'{e} internationale} -- Guatemala (2019) : Construction d'infrastructures pour des communaut\'{e}s d\'{e}favoris\'{e}es}
-  \resumeSubHeadingListEnd
+  \resumeItemListEnd
 
 \end{document}
