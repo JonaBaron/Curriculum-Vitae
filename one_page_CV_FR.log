@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 MAY 2026 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 MAY 2026 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
 \c@section=\count197
@@ -333,30 +333,35 @@ Package hyperref Info: Link coloring ON on input line 70.
 \everyMPtoPDFconversion=\toks27
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <10.95> on input line 75.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 75.
+(Font)              <8> on input line 75.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 87.
+(Font)              <6> on input line 75.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 87.
+(Font)              <12> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 87.
+(Font)              <5> on input line 89.
 
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+(fancyhdr)                Make it at least 4.35004pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.35004pt}.
 
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (8.6158pt too wide) in alignment at lines 145--145
+[] [] 
+ []
+
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+(fancyhdr)                Make it at least 4.35004pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.35004pt}.
 
 [2] (./one_page_CV_FR.aux)
  ***********
@@ -367,25 +372,26 @@ Package rerunfilecheck Info: File `one_page_CV_FR.out' has not changed.
 (rerunfilecheck)             Checksum: 665D42A7C79D953303A32F89C803095B;669.
  ) 
 Here is how much of TeX's memory you used:
- 10790 strings out of 473190
- 171734 string characters out of 5715801
- 614918 words of memory out of 5000000
+ 10793 strings out of 473190
+ 171774 string characters out of 5715801
+ 609916 words of memory out of 5000000
  33934 multiletter control sequences out of 15000+600000
- 564103 words of font info for 53 fonts, out of 8000000 for 9000
+ 565015 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,368b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,322b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/l
-ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on one_page_CV_FR.pdf (2 pages, 121778 bytes).
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on one_page_CV_FR.pdf (2 pages, 134572 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
